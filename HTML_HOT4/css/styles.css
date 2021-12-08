@@ -1,0 +1,75 @@
+/* Body Work */
+
+/* Header Work */
+header nav div a img {
+    width: auto;
+    height: 5rem;
+}
+
+header nav div {
+    font-size: 1.5rem;
+}
+
+.webtitle::after {
+    content: " | ";
+}
+
+/* Jumbotron */
+.jumbo {
+    background-image: url("../images/jumbosquish.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumboprod {
+    background-image: url("../images/jumboproduct.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.textshadow h1, .textshadow p {
+    text-shadow: .2rem .2rem .6rem black;
+}
+/* Three Column Work */
+.biggerpara p{
+    font-size: 1.3rem;
+}
+/* Media Breakpoints */
+
+/*Large*/
+@media only screen and (min-width: 992.5px) {
+
+}
+/*Medium*/
+@media only screen and (max-width: 992px) {
+
+
+    .col-4 {
+        width: 100% !important;
+        padding-bottom: 4rem;
+        padding-top: 2rem;
+    }
+
+    
+    .col-3 {
+        width: 45% !important;
+    }
+
+    .col-5 {
+        width: 100% !important;
+    }
+ }
+
+/* Small */
+@media only screen and (max-width: 768px) { 
+    .webtitle::after {
+        content: "";
+    }
+
+    
+    .col-3 {
+        width: 100% !important;
+    }
+}
+
+
